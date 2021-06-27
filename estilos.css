@@ -339,6 +339,66 @@ header .linea {
     background-color: #D42C23;
 }
 
+.uniforme {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.uniforme-container-item {
+    color: #FDC52C;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+
+.uniforme-container-item img {
+    width: 1100px;
+    height: 450px;
+}
+
+.uniforme-item-details {
+    font-size: 12px;
+    opacity: 1;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.uniforme-item-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.uniforme-item-subtitle {
+    color: white;
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+.uniforme-item-info button {
+    color: white;
+    background-color: #C9132F;
+    padding: 6px 20px;
+    font-size: 11px;
+    font-weight: 900;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
 /* footer */
 
 footer {
